@@ -1,0 +1,159 @@
+.face-detection {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.face-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.preview-face {
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.result {
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.result h2 {
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    color: #757575;
+    width: 500px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder > p {
+    margin: 0;
+}
+
+.plate-type-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.plate-type-container label {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.choose-file-btn {
+    background-color: #4c5baf;
+}
+
+.choose-file-btn:hover {
+    background-color: #5645a0;
+}
+
+.button-group {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.plate-number-group {
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.result-group {
+    display: flex;
+    column-gap: 8px;
+}
+
+.result-group h2 {
+    margin: 0;
+    font-size: 16px;
+    width: 230px;
+    text-align: left;
+}
+
+.result-group p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Loading */
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #45a049 transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

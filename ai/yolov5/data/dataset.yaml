@@ -1,0 +1,6 @@
+names:
+- face
+nc: 0
+path: ../faceset
+train: images/train
+val: images/validation
