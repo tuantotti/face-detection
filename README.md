@@ -3,11 +3,13 @@
 This is a personal project that detects the face in images
 
 ## Table Of Content
-
+- [Result](#result)
 - [Installation](#installation)
     - [Back end](#backend)
     - [Front end](#frontend)
-- [Result](#result)
+
+## Result
+https://github.com/tuantotti/face-detection/assets/75234453/af42522a-c037-4a6a-b5ec-4373b608e7bd
 
 ## Installation
 
@@ -31,4 +33,6 @@ and run react with
 ```bash
 npm start
 ```
-## Result
+
+
+
