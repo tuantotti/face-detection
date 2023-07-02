@@ -32,5 +32,7 @@ and run react with
 npm start
 ```
 ## Result
-https://github.com/tuantotti/face-detection/assets/75234453/c82e28a8-730b-4191-8060-be1ac8fff02d
+https://github.com/tuantotti/face-detection/assets/75234453/af42522a-c037-4a6a-b5ec-4373b608e7bd
+
+
 
